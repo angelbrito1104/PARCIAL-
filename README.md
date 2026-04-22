@@ -1,5 +1,5 @@
 # PARCIAL
-
+angel gabriel brito barreto
 ## Punto 1
 
 1. Diferencia entre flip-flop y latch
@@ -28,6 +28,9 @@ Características:
 - D: evita estados inválidos.
 - JK: mejora el SR.
 - T: cambia de estado (toggle).
+
+
+<img width="770" height="342" alt="image" src="https://github.com/user-attachments/assets/e6da5177-8856-41f1-a224-caac254ed96c" />
 
 
 2. Diferencia entre Multiplexor y Demultiplexor
@@ -203,3 +206,57 @@ tabla de verdad:
 | 1 | 1 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 1 | 1 |
+
+
+<img width="548" height="468" alt="image" src="https://github.com/user-attachments/assets/71a3382d-dc9c-4384-b578-b721f82cd018" />
+
+
+
+
+## Punto 3: 
+
+Codigo google colab 
+
+# CHATBOT SISTEMAS DIGITALES 2026
+ 
+def chatbot():
+    print(" Chatbot de Sistemas Digitales 2026")
+    print("Escribe 'salir' para terminar\n")
+    
+    while True:
+        pregunta = input("Tú: ").lower()
+        
+        if pregunta == "salir":
+            print("Chatbot: ¡Hasta luego!")
+            break
+        
+        # SEMICONDUCTORES
+        elif "semiconductores" in pregunta:
+            print("Chatbot: Los semiconductores son materiales esenciales en la electrónica moderna. En 2026, permiten el desarrollo de chips más rápidos, pequeños y eficientes, usados en inteligencia artificial, celulares y computadoras.")
+        
+        # EMPRESAS
+        elif "empresas" in pregunta:
+            print("Chatbot: Algunas empresas importantes son Intel, NVIDIA, TSMC y Samsung. Estas lideran la fabricación de chips y tienen gran impacto en los sistemas digitales y la tecnología actual.")
+        
+        # EDUCACIÓN - INNOVACIÓN
+        elif "innovación" in pregunta:
+            print("Chatbot: La innovación en educación incluye el uso de simuladores, Arduino, laboratorios virtuales y herramientas digitales para aprender sistemas digitales de forma práctica.")
+        
+        # EDUCACIÓN - IMPACTO
+        elif "impacto" in pregunta:
+            print("Chatbot: Los sistemas digitales han mejorado la educación con proyectos de robótica, automatización e inteligencia artificial, haciendo el aprendizaje más interactivo.")
+        
+        # FUTURO
+        elif "futuro" in pregunta:
+            print("Chatbot: En el futuro, los sistemas digitales estarán más integrados con la inteligencia artificial, el Internet de las cosas y la automatización en todos los campos.")
+        
+        # SISTEMAS DIGITALES
+        elif "sistemas digitales" in pregunta:
+            print("Chatbot: Los sistemas digitales procesan información en forma binaria (0 y 1) y son la base de computadoras, celulares y dispositivos electrónicos.")
+        
+        else:
+            print("Chatbot: No entendí tu pregunta. Intenta con temas como semiconductores, empresas, innovación, impacto o futuro.")
+ 
+# Ejecutar chatbot
+chatbot()
+ 
