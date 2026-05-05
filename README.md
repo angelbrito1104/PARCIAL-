@@ -215,6 +215,8 @@ tabla de verdad:
 
 ## Punto 3: 
 
+chatbot: https://colab.research.google.com/drive/1ET1JxeK2pnjtOWu_66fXtxlL9s-pHWTz?usp=sharing
+
 Codigo google colab 
 
 # CHATBOT SISTEMAS DIGITALES 2026
